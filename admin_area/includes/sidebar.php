@@ -37,7 +37,7 @@ if (!isset($_SESSION['admin_email'])){
         <span class="badge"><?php echo $count_p_cat ?></span></a>
     </a>
    
-    <a class="divider" href="../admin_area/controller/logout.php"> Logout <i class="fa fa-fw fa-power-off"></i></a>
+    <a class="divider" href="../controller/logout.php"> Logout <i class="fa fa-fw fa-power-off"></i></a>
 
   </div>
 				

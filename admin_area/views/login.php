@@ -42,6 +42,7 @@ include("../includes/db.php");
       </h4>
     </form>
   </div>
+  <script src="../js/validate.js"></script>
 </body>
 
 </html>
