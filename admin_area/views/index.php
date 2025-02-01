@@ -101,6 +101,9 @@ $count_order=mysqli_num_rows($run_p_cat);
           if(isset($_GET['view_product_cat'])) {     
           include 'view_p_cat.php';
      }
+          if(isset($_GET['view_product_ajax'])) {     
+          include 'view_products_ajax.php';
+     }
      //     if(isset($_GET['delete_p_cat'])) {     
      //      include 'delete_p_cat.php';
          if(isset($_GET['delete_p_cat'])) {     

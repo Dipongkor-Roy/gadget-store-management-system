@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 	$run_admin=mysqli_query($con,$insert_admin);
 	if ($run_admin) {
 		echo "<script>alert('One New User has been inserted')</script>";
-		echo "<script>window.open('index.php?view_user','_self')</script>";
+		echo "<script>window.open('../view/index.php?view_user','_self')</script>";
 	}
 }
 

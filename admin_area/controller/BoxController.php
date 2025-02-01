@@ -15,7 +15,7 @@ if (isset($_GET['delete_box'])) {
 
 	if ($run_query) {
 		echo "<script>alert('Data Deleted')</script>";
-		echo "<script>window.open('index.php?view_box','_self')</script>";
+		echo "<script>window.open('../views/index.php?view_box','_self')</script>";
 	}
 }
 
@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
 
 	if ($run_box) {
 		echo "<script>alert('Information Updated')</script>";
-		echo "<script>window.open('index.php?view_box','_self')</script>";
+		echo "<script>window.open('../views/index.php?view_box','_self')</script>";
 	}
 
 
@@ -73,7 +73,7 @@ if (isset($_POST['submit'])) {
 
 	if ($run_box) {
 		echo "<script>alert('New box has been Inserted successfully')</script>";
-		echo "<script>window.open('index.php?view_box','_self')</script>";
+		echo "<script>window.open('../views/index.php?view_box','_self')</script>";
 	}
 
 
