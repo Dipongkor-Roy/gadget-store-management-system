@@ -63,7 +63,7 @@ include "../admin_area/controller/SliderController.php";
 
 							<input type="file" name="slider_image" class="form-control">
 							<br>
-						<img src="images/slider_images/<?php echo $slide_image ?>" width="70" height="70">
+						<img src="../images/slider_images/<?php echo $slide_image ?>" width="70" height="70">
 
                       </div>
 					</div>

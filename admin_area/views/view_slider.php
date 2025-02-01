@@ -46,7 +46,7 @@ if (!isset($_SESSION['admin_email'])){
                  			</h3>
                  			</div>
                  			<div class="panel-body">
-                 				<img src="images/slider_images/<?php echo $slide_image; ?>" class="img-responsive" width="230" height="130">
+                 				<img src="../images/slider_images/<?php echo $slide_image; ?>" class="img-responsive" width="230" height="130">
                  			</div>
                  			<div class="panel-footer">
                  				<center>
