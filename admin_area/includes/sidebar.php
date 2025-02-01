@@ -24,16 +24,16 @@ if (!isset($_SESSION['admin_email'])){
 		 <button onclick="myFunction()" class="dropbtn"><i class="fa fa-user"></i> <?php echo $admin_name; ?></a></button>
 
 			  <div id="myDropdown" class="dropdown-content">
-    <a href="index.php?user_profile?id=<?php echo $admin_id ?>"><i class="fa fa-fw-user"></i>Profile</a>
-    <a href="index.php?view_product"><i class="fa fa-fw-envelope"></i>Products
+    <a href="../views/index.php?user_profile=<?php echo $admin_id ?>"><i class="fa fa-fw-user"></i>Profile</a>
+    <a href="../views/index.php?view_product"><i class="fa fa-fw-envelope"></i>Products
 
      <span class="badge"><?php echo $count_pro ?></span></a>
 
 
-    <a href="index.php?view_customer"><i class="fa fa-fw-users"></i>Customer 
+    <a href="../views/index.php?view_customer"><i class="fa fa-fw-users"></i>Customer 
       <span class="badge"><?php echo $count_cust ?></span></a>
     </a>
-    <a href="index.php?pro_cat"><i class="fa fa-fw-gear"></i>Product Categories
+    <a href="../views/index.php?view_product_cat"><i class="fa fa-fw-gear"></i>Product Categories
         <span class="badge"><?php echo $count_p_cat ?></span></a>
     </a>
    
@@ -131,13 +131,13 @@ if (!isset($_SESSION['admin_email'])){
 
     <ul id="#users" class="dropdown-menu">
       <li>
-        <a href="index.php?insert_user">Insert User</a>
+        <a href="../views/index.php?insert_user">Insert User</a>
       </li>
       <li>
-        <a href="index.php?view_user">view User</a>
+        <a href="../views/index.php?view_user">view User</a>
       </li>
       <li>
-        <a href="index.php?user_profile=<?php echo $admin_id ?>">Edit Profile</a>
+        <a href="../views/index.php?user_profile=<?php echo $admin_id ?>">Edit Profile</a>
       </li>
      </ul>
   </li>
